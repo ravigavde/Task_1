@@ -4,6 +4,10 @@ public class Add
     {
         return(a+b);
     }
+    int add(int a, int b)
+    {
+        return(a-b);
+    }
     public static void main(String arg[])
     {
         int a =0, b=0;
@@ -15,5 +19,6 @@ public class Add
         System.out.println("Enter second number ");
         b = sc.nextInt();
         System.out.println("Addition is "+a.add(a,b));
+        System.out.println("Subtraction is "+a.sub(a,b));
     }
 }
