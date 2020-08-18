@@ -4,7 +4,7 @@ public class Add
     {
         return(a+b);
     }
-    int add(int a, int b)
+    int sub(int a, int b)
     {
         if((a-b)>0)
         {
