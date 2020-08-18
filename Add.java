@@ -4,7 +4,12 @@ public class Add
     {
         return(a+b);
     }
-    int add(int a, int b)
+    int mul(int a, int b)
+    {
+        return(a*b);
+    }
+
+    int sub(int a, int b)
     {
         return(a-b);
     }
@@ -19,6 +24,7 @@ public class Add
         System.out.println("Enter second number ");
         b = sc.nextInt();
         System.out.println("Addition is "+a.add(a,b));
+        System.out.println("Multiplication is "+a.mul(a,b));
         System.out.println("Subtraction is "+a.sub(a,b));
     }
 }
