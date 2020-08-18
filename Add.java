@@ -12,7 +12,7 @@ public class Add
         }
         else
         {
-            return(!(a-b))
+            return(!(a-b));
         }
     }
     public static void main(String arg[])
